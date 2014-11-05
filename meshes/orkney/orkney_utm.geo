@@ -1,4 +1,4 @@
-high_res = 300;  // Some area (small islands) are resolved slightly better
+high_res = 500;  // Some area (small islands) are resolved slightly better
 
 Point(1) = {459269.533915, 6511964.12829,0};
 Point(2) = {459461.9362, 6542725.60857,0};
@@ -4414,7 +4414,7 @@ Line Loop(2235) = {2211};
 
 
 // Add Farms
-farmres = 200;
+farmres = 500;
 Point(6519) = {491747, 6.50161e+06, 0, farmres};
 Point(6520) = {490536, 6.50225e+06, 0, farmres};
 Point(6521) = {492998, 6.5012e+06, 0, farmres};
@@ -4477,7 +4477,7 @@ Line Loop(12601) = {12600, -12300, -12200, -12100, -12000, -12400, 12500};  // F
 Plane Surface(12602) = {12601};
 Line Loop(12603) = {11700, 11800, 11900, 11200, 11300, 11400, 11500, 11600}; // Farm 2
 Plane Surface(12604) = {12603};
-Line Loop(12605) = {10900, 11000, 11100, 10400, 10500, 10600, 10700, 10800}; // Farm 3 
+Line Loop(12605) = {10900, 11000, 11100, 10400, 10500, 10600, 10700, 10800}; // Farm 3
 Plane Surface(12606) = {12605};
 Line Loop(12607) = {10200, 10300, 9800, 9900, 10000, 10100}; // Farm 4
 Plane Surface(12608) = {12607};
@@ -4497,7 +4497,7 @@ Field[3].NodesList = {2139, 2140, 2141, 2142, 2143, 2144, 2145, 2146, 2147, 2148
 
 Field[4] = Threshold;
 Field[4].IField = 3;
-Field[4].LcMin = 200;  // Element size inside DistMin
+Field[4].LcMin = 500;  // Element size inside DistMin
 Field[4].LcMax = 500; //Element size outside DistMax
 Field[4].DistMin = 1000; // Distance from entity up to which element size will be LcMin
 Field[4].DistMax = 16000;  // Distance from entity after which element size will be LcMax
